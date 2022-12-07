@@ -26,7 +26,11 @@ mydb = mysql.connector.connect(
 Delete bsa_csv.csv and bse_json.json - I only left them for you to see the output, the code should generate your own output
 
 You may also need to install other necessary modules as stated in the program
-
+Sign up with https://data.nasdaq.com/sign-up to get your API key
+Log in, then
+Follow the link below
 Data source - https://data.nasdaq.com/data/BSE/BOM542248-deccan-health-care-ltd-eod-prices
+
+Click the API
 
 Cheers!

@@ -5,7 +5,7 @@ import quandl
 import csv
 import json 
 
-df = quandl.get("BSE/BOM542248", authtoken="knso8NxM2d6x_JtssaqB")
+df = quandl.get("BSE/BOM542248", authtoken={'YOUR API KEY'})
 print(df.head())
 print(df.columns)
 
