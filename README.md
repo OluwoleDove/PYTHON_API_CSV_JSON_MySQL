@@ -19,7 +19,7 @@ Find this block of code in the program file and fill them with your MySQL databa
 mydb = mysql.connector.connect(
   host="localhost",
   user="{Your Database username}",
-  password="{Your Databse Password}",
+  password="{Your Database Password}",
   database="{Your Model's Name}" #returns an error if DB does not exist
 )
 

@@ -59,7 +59,7 @@ print(df.describe)
 mydb = mysql.connector.connect(
   host="localhost",
   user="{Your Database username}",
-  password="{Your Databse Password}",
+  password="{Your Database Password}",
   database="{Your Model's Name}" #returns an error if DB does not exist
 )
 print(mydb)
