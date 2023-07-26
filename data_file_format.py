@@ -5,7 +5,7 @@ import quandl
 import csv
 import json 
 
-df = quandl.get("BSE/BOM542248", authtoken={'YOUR API KEY'})
+df = quandl.get("BSE/BOM542248", authtoken="knso8NxM2d6x_JtssaqB")
 print(df.head())
 print(df.columns)
 
@@ -58,9 +58,9 @@ print(df.describe)
 #ESTABLISH DATABASE CONNECTION
 mydb = mysql.connector.connect(
   host="localhost",
-  user="{Your Database username}",
-  password="{Your Database Password}",
-  database="{Your Model's Name}" #returns an error if DB does not exist
+  user="thegeekme",
+  password="#cxsoft_J8MySQL",
+  database="myclass_db" #returns an error if DB does not exist
 )
 print(mydb)
 new_db = mydb.cursor()
