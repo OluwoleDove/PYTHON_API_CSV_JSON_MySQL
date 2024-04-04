@@ -1,4 +1,4 @@
 mydb = {
   "user":"thegeekme",
-  "password":"#cxsoft_J8MySQL"
+  "password":"111#oaf_sAge*44#"
 }
