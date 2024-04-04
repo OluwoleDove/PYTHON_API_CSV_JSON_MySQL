@@ -4,6 +4,7 @@ import pandas as pd
 import quandl
 import csv
 import json 
+from conn_var import mydb 
 
 df = quandl.get("BSE/BOM542248", authtoken="knso8NxM2d6x_JtssaqB")
 print(df.head())
@@ -58,8 +59,8 @@ print(df.describe)
 #ESTABLISH DATABASE CONNECTION
 mydb = mysql.connector.connect(
   host="localhost",
-  user="thegeekme",
-  password="#cxsoft_J8MySQL",
+  user=mydb['user'],
+  password=mydb['password'],
   database="myclass_db" #returns an error if DB does not exist
 )
 print(mydb)
