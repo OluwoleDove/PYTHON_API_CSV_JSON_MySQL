@@ -4,9 +4,10 @@ import pandas as pd
 import quandl
 import csv
 import json 
+import conn_var
 from conn_var import mydb 
 
-df = quandl.get("BSE/BOM542248", authtoken="knso8NxM2d6x_JtssaqB")
+df = quandl.get("BSE/BOM542248", authtoken=conn_var.token)
 print(df.head())
 print(df.columns)
 
