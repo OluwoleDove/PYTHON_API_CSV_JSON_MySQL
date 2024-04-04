@@ -1,3 +1,6 @@
 DATA FORMATS
 
-- Database (MySQL, MongoDB)
+- Database (MySQL, MongoDB) - Backend Guys
+- CSV (Comma Separated Values) - Sales, Project Managements Teams
+- APIs (ApplicatioN Programming Interface) - Product Developers (Frontend)
+- Excel

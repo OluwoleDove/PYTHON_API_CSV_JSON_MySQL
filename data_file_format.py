@@ -8,7 +8,6 @@ import conn_var
 from conn_var import mydb 
 
 df = quandl.get("BSE/BOM542248", authtoken=conn_var.token)
-print(df.head())
 print(df.columns)
 
 #df = df[['Open', 'High', 'Low', 'Close', 'WAP', 'No. of Shares', 'No. of Trades', 'Total Turnover', 'Deliverable Quantity', '% Deli. Qty to Traded Qty', 'Spread H-L', 'Spread C-O']]
